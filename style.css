@@ -1,0 +1,408 @@
+.header{
+    background-color: black;
+    height: 70px;
+    
+
+}
+body{
+    margin: 0;
+}
+.header-elements{
+    display: grid;
+    grid-template-columns: 150px 115px 110px 90px 90px 70px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.header-right{
+    display: grid;
+    font-family: sans-serif;
+    font-size: 14px;
+    grid-template-columns: 60px 80px 60px 80px 80px;
+    color: white;
+    position: absolute;
+    margin-left: 900px;
+    padding-top: 8px;
+
+}
+.pin{
+    width: 30px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 14px;
+}
+.india{
+    margin-left: 60px;
+    font-weight: bold;
+}
+.interface-video{
+    width: 100%;
+    
+}
+.video-matter{
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 250px;
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+
+}
+.video-matter2{
+    position: absolute;
+    color: white;
+    margin-top: 415px;
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 55px;
+}
+.discovermore{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(205, 25, 45);
+
+}
+.discovermore:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.enq-book-bg{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(46, 46, 46);
+    margin-top: 0px;
+    position: absolute;
+    margin-top: 758px;
+  
+}
+.engbookgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5px;
+   
+    
+    
+}
+.enquire{
+    margin-left: 290px;
+    width: 50%;
+    border-right: 1px solid rgb(155, 155, 155);
+    padding-right:50px ;
+    color: rgb(138, 137, 137);
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.book{
+    margin-left: 310px;
+    width: 50%;
+   
+    color: rgb(138, 137, 137);
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon-brochure{
+    position: absolute;
+    width: 30px;
+    margin-left: 240px;
+    margin-top: 17px;
+
+}
+.testdrive{
+    position: absolute;
+    width: 25px;
+    margin-left: 940px;
+    margin-top: 12px;
+}
+
+
+.welcome{
+    color:black;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 36%;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+.start{
+    color:black;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 36%;
+    font-size: 30px;
+    font-weight: 500;
+    word-spacing: 5px;
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 500px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30px;
+   
+    
+}
+.text-img{
+    margin-top: 5px;
+    margin-left: 2px;
+    font-weight: 400;
+}
+.text-img1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.configure{
+    position: absolute;
+    margin-top: 390px;
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    margin-left: 450px;
+    
+}
+.button-letsgo{
+    margin-top: 450px;
+    margin-left: 490px;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color: black;
+    color: white;
+    font-family:  "Barlow Condensed", sans-serif;
+    border:none;
+    font-size: 20px;
+    transition: background-color 0.45s;
+}
+.button-letsgo:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.discover{
+    font-family: "Barlow Condensed", sans-serif;
+    margin-top: 80px;
+    font-size: 30px;
+    margin-left: 510px;
+    font-weight: 500;
+}
+.truimph-speed400{
+    width: 840px;
+    margin-top: 60px;
+}
+.speed400{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 870px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.dna{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 870px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+.viewdetails{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 870px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.truimph-clothing{
+    width: 760px;
+    margin-left: 520px;
+
+}
+.clothing-text{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.text-clothing{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+.explore1{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 88px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.discover-triumph{
+    font-family: "Barlow Condensed", sans-serif;
+    margin-top: 80px;
+    font-size: 40px;
+    margin-left: 550px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.pic1{
+    width: 596px;
+    height: 462px;
+    object-fit: cover;
+}
+.pic2{
+    width: 596px;
+    height: 462px;
+    object-fit: cover;
+
+}
+.pic3{
+    width: 596px;
+    height: 462px;
+    object-fit: cover;
+}
+.pic4{
+    width: 596px;
+    height: 462px;
+    object-fit: cover;
+}
+.grid-images{
+    display: grid;
+    grid-template-columns: 596px 596px;
+    column-gap: 50px;
+    margin-left: 50px;
+    row-gap: 150px;
+    margin-top: 100px;
+    
+}
+.MATTER{
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 35px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}   
+.BUTTON{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-size: 17PX;
+}
+.BUTTON1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    margin-top: 45PX;
+    font-size: 17PX;
+}
+.LINE1{
+    margin-top: 80px;
+}
+.footer{
+    margin-top: 80PX;
+    margin-left: 50PX;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 20px;
+    color: rgb(99, 101, 106);
+    font-weight: 500;
+}
+.footer-heading{
+    color: black;
+}
+.facebook{
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+.youtube{
+    width: 55px;
+    margin-left: 130px;
+    margin-top: 43px;
+    position: absolute;
+}
+.twitter{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+
+}
+.line2{
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    margin-top: 105px;
+    margin-left: 45px;
+}
+.flex{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: row;
+    color: grey;
+    
+}
